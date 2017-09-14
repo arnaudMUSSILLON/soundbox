@@ -7,5 +7,13 @@ sounds = [
 ]
 
 $.each(sounds, function(index, value){
-  $("#sound-container").append('<div class="box">'+value.name+'</div>');
+  $("#sound-container").append('<div class="box">'
+    +value.name
+    +'<audio src='
+    +value.path
+    +'</audio></div>');
 });
+
+/*$(".box").on("click", function(){
+  $(".box").append('<audio src='++'></audio>')
+})*/
