@@ -16,6 +16,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+@font-face {
+	font-family: "Sticky Toffee";
+	src:url("../fonts/stickytoffee.otf");
+
+}
+
 *{
 	-webkit-box-sizing: border-box;
   	-moz-box-sizing: border-box;
@@ -90,15 +97,25 @@ header a:hover, .list-mode header a.hide-list:hover{
 }
 
 .wrapper .box{
+	font-family : "Sticky Toffee";
+	font-size : 20px;
 	float:left;
-	width:100px;
-	height:100px;
+	width:200px;
+	height:200px;
 	margin:0 2vw 2vw 0;
+	text-align : center;
+	display:inline-block;
+	line-height: 200px;
+	vertical-align: middle;
 	background-color:#CCCCCC;
 	-webkit-transition:all 1.0s ease;
 	-moz-transition:all 1.0s ease;
 	transition:all 1.0s ease;
 	transition:all 1.0s ease;
+}
+
+.wrapper .box:focus{
+	background-color : pink;
 }
 
 .wrapper.list-mode .container{
