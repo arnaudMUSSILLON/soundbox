@@ -1,17 +1,17 @@
-.search-input{
+#search-input{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 1em; /*16px*/
+  font-size: 1em;
   font-family: "Roboto", Arial, sans-serif;
   text-transform: uppercase;
   background-color: transparent;
   position: relative;
   border: none;
   height: 40px;
-  width: calc(94% - 32px);
+  width: calc(92% - 32px);
 }
-.search-input:focus{
+#search-input:focus{
   outline: none;
 }
 
@@ -23,7 +23,7 @@
   height: 40px;
   position: relative;
   width: 94%;
-  margin-right: 3%;
+  margin-left: 3%;
 }
 
 .search-icon {
